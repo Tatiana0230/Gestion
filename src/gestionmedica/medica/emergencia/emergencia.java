@@ -30,7 +30,6 @@ public class emergencia extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         desktop = new javax.swing.JDesktopPane();
-        jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jTextField1 = new javax.swing.JTextField();
         jTextField2 = new javax.swing.JTextField();
@@ -43,19 +42,6 @@ public class emergencia extends javax.swing.JInternalFrame {
         jButton1 = new javax.swing.JButton();
 
         desktop.setBackground(new java.awt.Color(255, 255, 255));
-
-        jPanel1.setBackground(new java.awt.Color(204, 255, 255));
-
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 145, Short.MAX_VALUE)
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 132, Short.MAX_VALUE)
-        );
 
         jPanel2.setBackground(new java.awt.Color(204, 204, 255));
 
@@ -77,7 +63,7 @@ public class emergencia extends javax.swing.JInternalFrame {
         jLabel3.setText("Nombre del médico");
 
         jLabel4.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jLabel4.setText("Identificación del médico");
+        jLabel4.setText("Identificación del paciente");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -99,11 +85,11 @@ public class emergencia extends javax.swing.JInternalFrame {
                         .addGap(54, 54, 54)
                         .addComponent(jLabel2))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(57, 57, 57)
-                        .addComponent(jLabel3))
+                        .addGap(50, 50, 50)
+                        .addComponent(jLabel4))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(51, 51, 51)
-                        .addComponent(jLabel4)))
+                        .addGap(62, 62, 62)
+                        .addComponent(jLabel3)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -115,15 +101,15 @@ public class emergencia extends javax.swing.JInternalFrame {
                 .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jLabel3)
-                .addGap(7, 7, 7)
-                .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
                 .addComponent(jLabel4)
-                .addGap(14, 14, 14)
+                .addGap(18, 18, 18)
+                .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(21, 21, 21)
+                .addComponent(jLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(74, 74, 74))
         );
@@ -137,7 +123,6 @@ public class emergencia extends javax.swing.JInternalFrame {
             }
         });
 
-        desktop.setLayer(jPanel1, javax.swing.JLayeredPane.DEFAULT_LAYER);
         desktop.setLayer(jPanel2, javax.swing.JLayeredPane.DEFAULT_LAYER);
         desktop.setLayer(jButton1, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
@@ -146,29 +131,23 @@ public class emergencia extends javax.swing.JInternalFrame {
         desktopLayout.setHorizontalGroup(
             desktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(desktopLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(164, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, desktopLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(229, 229, 229))
+                .addGroup(desktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(desktopLayout.createSequentialGroup()
+                        .addGap(161, 161, 161)
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(desktopLayout.createSequentialGroup()
+                        .addGap(231, 231, 231)
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(232, Short.MAX_VALUE))
         );
         desktopLayout.setVerticalGroup(
             desktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(desktopLayout.createSequentialGroup()
-                .addGroup(desktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(desktopLayout.createSequentialGroup()
-                        .addGap(112, 112, 112)
-                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(desktopLayout.createSequentialGroup()
-                        .addGap(39, 39, 39)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
+                .addGap(39, 39, 39)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 309, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(62, 62, 62))
+                .addContainerGap(126, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -201,7 +180,6 @@ public class emergencia extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
