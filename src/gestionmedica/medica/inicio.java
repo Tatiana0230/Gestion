@@ -37,7 +37,6 @@ public class inicio extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setExtendedState(6);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         Btnsiguiente.setBackground(new java.awt.Color(255, 255, 255));
@@ -63,14 +62,13 @@ public class inicio extends javax.swing.JFrame {
             deskopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(deskopLayout.createSequentialGroup()
-                .addGroup(deskopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(deskopLayout.createSequentialGroup()
-                        .addGap(312, 312, 312)
-                        .addComponent(Btnsiguiente, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(deskopLayout.createSequentialGroup()
-                        .addGap(28, 28, 28)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 665, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(31, Short.MAX_VALUE))
+                .addGap(28, 28, 28)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 665, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(387, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, deskopLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Btnsiguiente, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(445, 445, 445))
         );
         deskopLayout.setVerticalGroup(
             deskopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -79,12 +77,12 @@ public class inicio extends javax.swing.JFrame {
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 191, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addGap(57, 57, 57)
                 .addComponent(Btnsiguiente, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(62, Short.MAX_VALUE))
+                .addContainerGap(315, Short.MAX_VALUE))
         );
 
-        getContentPane().add(deskop, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(deskop, new org.netbeans.lib.awtextra.AbsoluteConstraints(-6, 0, 1080, 720));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

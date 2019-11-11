@@ -71,7 +71,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Times New Roman" size="14" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Emergencia"/>
+                    <Property name="text" type="java.lang.String" value="Emergencia (Triage I)"/>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MemergenciaActionPerformed"/>
@@ -85,7 +85,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Times New Roman" size="14" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Urgencia"/>
+                    <Property name="text" type="java.lang.String" value="Urgencia (Triage II)"/>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MUrgenciaActionPerformed"/>
@@ -99,7 +99,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Times New Roman" size="14" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Urgencia no vital"/>
+                    <Property name="text" type="java.lang.String" value="Urgencia no vital (Triage IIIA)"/>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MUrgenciNActionPerformed"/>
@@ -113,7 +113,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Times New Roman" size="14" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Atencion Prioritaria"/>
+                    <Property name="text" type="java.lang.String" value="Atenci&#xf3;n prioritaria (Triage IIIB)"/>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MatencionActionPerformed"/>
@@ -127,7 +127,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Times New Roman" size="14" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Consulta Externa"/>
+                    <Property name="text" type="java.lang.String" value="Consulta Externa (Triage IV)"/>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MconsultaActionPerformed"/>

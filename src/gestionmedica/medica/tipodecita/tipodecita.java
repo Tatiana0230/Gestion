@@ -108,7 +108,7 @@ public class tipodecita extends javax.swing.JInternalFrame {
 
         Memergencia.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
         Memergencia.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        Memergencia.setText("Emergencia");
+        Memergencia.setText("Emergencia (Triage I)");
         Memergencia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 MemergenciaActionPerformed(evt);
@@ -118,7 +118,7 @@ public class tipodecita extends javax.swing.JInternalFrame {
 
         MUrgencia.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
         MUrgencia.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        MUrgencia.setText("Urgencia");
+        MUrgencia.setText("Urgencia (Triage II)");
         MUrgencia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 MUrgenciaActionPerformed(evt);
@@ -128,7 +128,7 @@ public class tipodecita extends javax.swing.JInternalFrame {
 
         MUrgenciN.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
         MUrgenciN.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        MUrgenciN.setText("Urgencia no vital");
+        MUrgenciN.setText("Urgencia no vital (Triage IIIA)");
         MUrgenciN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 MUrgenciNActionPerformed(evt);
@@ -138,7 +138,7 @@ public class tipodecita extends javax.swing.JInternalFrame {
 
         Matencion.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
         Matencion.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        Matencion.setText("Atencion Prioritaria");
+        Matencion.setText("Atención prioritaria (Triage IIIB)");
         Matencion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 MatencionActionPerformed(evt);
@@ -148,7 +148,7 @@ public class tipodecita extends javax.swing.JInternalFrame {
 
         Mconsulta.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
         Mconsulta.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        Mconsulta.setText("Consulta Externa");
+        Mconsulta.setText("Consulta Externa (Triage IV)");
         Mconsulta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 MconsultaActionPerformed(evt);
