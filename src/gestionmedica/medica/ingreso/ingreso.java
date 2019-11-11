@@ -191,7 +191,7 @@ public class ingreso extends javax.swing.JInternalFrame {
                     .addGroup(desktopLayout.createSequentialGroup()
                         .addGap(649, 649, 649)
                         .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 357, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(406, Short.MAX_VALUE))
+                .addContainerGap(407, Short.MAX_VALUE))
         );
         desktopLayout.setVerticalGroup(
             desktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
