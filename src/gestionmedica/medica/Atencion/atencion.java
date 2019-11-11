@@ -48,7 +48,7 @@ public class atencion extends javax.swing.JInternalFrame {
         jPanel2.setBackground(new java.awt.Color(204, 204, 255));
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jLabel1.setText("Tipo de cita Solicitada");
+        jLabel1.setText("Tipo de cita solicitada");
 
         jTextField2.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
 
@@ -58,17 +58,17 @@ public class atencion extends javax.swing.JInternalFrame {
         jTextField1.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
 
         jLabel3.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jLabel3.setText("Valor del Pago");
+        jLabel3.setText("Valor del pago");
 
         jTextField3.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
 
         jLabel4.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jLabel4.setText("Nombre de Medico");
+        jLabel4.setText("Nombre de médico");
 
         jTextField4.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
 
         jLabel5.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jLabel5.setText("Identificacion ");
+        jLabel5.setText("Identificación ");
 
         jTextField5.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jTextField5.addActionListener(new java.awt.event.ActionListener() {
@@ -162,7 +162,7 @@ public class atencion extends javax.swing.JInternalFrame {
                     .addGroup(desktopLayout.createSequentialGroup()
                         .addGap(173, 173, 173)
                         .addComponent(jButton1)))
-                .addContainerGap(172, Short.MAX_VALUE))
+                .addContainerGap(159, Short.MAX_VALUE))
         );
         desktopLayout.setVerticalGroup(
             desktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -180,7 +180,7 @@ public class atencion extends javax.swing.JInternalFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(desktop, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 24, Short.MAX_VALUE))
+                .addGap(0, 26, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
