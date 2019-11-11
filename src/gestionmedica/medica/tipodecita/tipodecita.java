@@ -62,11 +62,11 @@ public class tipodecita extends javax.swing.JInternalFrame {
         desktop.setLayout(desktopLayout);
         desktopLayout.setHorizontalGroup(
             desktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1035, Short.MAX_VALUE)
+            .addGap(0, 523, Short.MAX_VALUE)
         );
         desktopLayout.setVerticalGroup(
             desktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 576, Short.MAX_VALUE)
+            .addGap(0, 304, Short.MAX_VALUE)
         );
 
         jMenu2.setText("Tipo de cita");
@@ -85,7 +85,7 @@ public class tipodecita extends javax.swing.JInternalFrame {
 
         btnodontologia.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
         btnodontologia.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        btnodontologia.setText("Cita Odontologica");
+        btnodontologia.setText("Cita odontológica");
         btnodontologia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnodontologiaActionPerformed(evt);
@@ -95,7 +95,7 @@ public class tipodecita extends javax.swing.JInternalFrame {
 
         btnprioritaria.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
         btnprioritaria.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        btnprioritaria.setText("Cita Prioritaria");
+        btnprioritaria.setText("Cita prioritaria");
         btnprioritaria.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnprioritariaActionPerformed(evt);
@@ -166,13 +166,13 @@ public class tipodecita extends javax.swing.JInternalFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(desktop)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(desktop, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(desktop, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
