@@ -213,7 +213,9 @@ public class tipodecita extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_MUrgenciNActionPerformed
 
     private void MatencionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MatencionActionPerformed
-        
+         atencion  A= new atencion();
+        desktop.add(A);
+        A.show();
     }//GEN-LAST:event_MatencionActionPerformed
 
     private void MconsultaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MconsultaActionPerformed
