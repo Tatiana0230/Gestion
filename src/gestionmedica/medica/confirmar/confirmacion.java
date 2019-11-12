@@ -160,7 +160,7 @@ public class confirmacion extends javax.swing.JInternalFrame {
 
         jMenu2.setText("Confirmación");
 
-        jMenuItem1.setText("Ver recuento");
+        jMenuItem1.setText("Ver registro");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem1ActionPerformed(evt);
