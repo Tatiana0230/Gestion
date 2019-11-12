@@ -34,7 +34,7 @@ public class citaodontologica extends javax.swing.JInternalFrame {
         jTextField1 = new javax.swing.JTextField();
         jTextField2 = new javax.swing.JTextField();
         jTextField3 = new javax.swing.JTextField();
-        jTextField4 = new javax.swing.JTextField();
+        txtOdontologia = new javax.swing.JTextField();
         jTextField5 = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
@@ -65,11 +65,11 @@ public class citaodontologica extends javax.swing.JInternalFrame {
         jTextField3.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jTextField3.setText("1263575");
 
-        jTextField4.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextField4.setText("Cita Odontológica");
-        jTextField4.addActionListener(new java.awt.event.ActionListener() {
+        txtOdontologia.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        txtOdontologia.setText("Cita Odontológica");
+        txtOdontologia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField4ActionPerformed(evt);
+                txtOdontologiaActionPerformed(evt);
             }
         });
 
@@ -108,7 +108,7 @@ public class citaodontologica extends javax.swing.JInternalFrame {
                     .addComponent(jTextField2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 243, Short.MAX_VALUE)
                     .addComponent(jTextField1, javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jTextField5, javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField4, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtOdontologia, javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jTextField3))
                 .addContainerGap(82, Short.MAX_VALUE))
         );
@@ -118,7 +118,7 @@ public class citaodontologica extends javax.swing.JInternalFrame {
                 .addGap(24, 24, 24)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
-                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtOdontologia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
@@ -206,9 +206,9 @@ public class citaodontologica extends javax.swing.JInternalFrame {
         C.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
+    private void txtOdontologiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtOdontologiaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField4ActionPerformed
+    }//GEN-LAST:event_txtOdontologiaActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -224,7 +224,7 @@ public class citaodontologica extends javax.swing.JInternalFrame {
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField txtOdontologia;
     // End of variables declaration//GEN-END:variables
 }
