@@ -57,12 +57,22 @@ public class citamedica extends javax.swing.JInternalFrame {
 
         txtcopago.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         txtcopago.setText("3000");
+        txtcopago.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtcopagoActionPerformed(evt);
+            }
+        });
 
         txtnombreM.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         txtnombreM.setText("Juan Ortiz Tellez");
 
         txtidentificacion.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         txtidentificacion.setText("1234567");
+        txtidentificacion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtidentificacionActionPerformed(evt);
+            }
+        });
 
         jTextField1.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -210,6 +220,14 @@ public class citamedica extends javax.swing.JInternalFrame {
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void txtidentificacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtidentificacionActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtidentificacionActionPerformed
+
+    private void txtcopagoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtcopagoActionPerformed
+       
+    }//GEN-LAST:event_txtcopagoActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
